@@ -1,0 +1,85 @@
+
+
+
+
+
+
+
+
+<form action="/updated" method="post">
+		<div class="formbold-main-wrapper">
+			<div class="formbold-form-wrapper">
+				<h1>View vehicle details</h1>
+				
+					<div class="formbold-input-group">
+						<label for="name" class="formbold-form-label"> Vehicle Type</label>
+						<input
+							type="text"
+							name="Vehicle Type"
+							id="name"
+							placeholder="Vehicle Type"
+							class="formbold-form-input";
+						/>
+					</div>
+					
+					<div class="formbold-input-group">
+						<label for="id" class="formbold-form-label"> Vehicle Id</label>
+						<input
+							type="Number"
+							name="id"
+							id="id"
+							placeholder="Vehicle id"
+							class="formbold-form-input";
+						/>
+					</div>
+					
+					<div class="formbold-input-group">
+						<label for="name" class="formbold-form-label"> Vehicle Name</label>
+						<input
+							type="text"
+							name="Vehicle Name"
+							id="Name"
+							placeholder="Vehicle Name"
+							class="formbold-form-input";
+						/>
+					</div>
+					
+					<div class="formbold-input-group">
+						<label for="seats" class="formbold-form-label"> No. of Seats</label>
+						<input
+							type="Number"
+							name="id"
+							id="id"
+							placeholder="No. of Seats"
+							class="formbold-form-input";
+						/>
+					</div>
+					
+					<div class="formbold-input-group">
+						<label for="Type" class="formbold-form-label"> Ac/NonAc</label>
+						<input
+							type="text"
+							name="Ac/NonAc"
+							id="Name"
+							placeholder="Ac/NonAc"
+							class="formbold-form-input";
+						/>
+					</div>
+					
+					<div class="formbold-input-group">
+						<label for="Cost" class="formbold-form-label"> vPerKmRate</label>
+						<input
+							type="Number"
+							name="Cost"
+							id="id"
+							placeholder="vPerKmRate"
+							class="formbold-form-input";
+						/>
+					</div>
+					
+					<button class="formbold-btn">Update</button>
+					<button class="formbold-btn"">Delete</button>
+					
+			</div>
+		</div>
+	</form>

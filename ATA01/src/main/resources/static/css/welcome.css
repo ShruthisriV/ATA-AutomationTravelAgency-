@@ -1,0 +1,16 @@
+@charset "UTF-8";
+.bit{
+	text-align:center;
+	margin-left: 400px;
+	margin-top:200px;
+	margin-bottom: 100px;
+	margin-right: 400px;
+	
+}
+body{
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+	margin: 0 auto;
+	margin-top:150px;
+}
